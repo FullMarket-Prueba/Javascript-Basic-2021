@@ -1,0 +1,38 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: 800;
+  color: rgb(1, 123, 230);
+}
+
+button {
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+  box-shadow: 0 0 20px green;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  border: groovev 3px greenyellow;
+  font-weight: 900;
+  color: rgb(241, 171, 19);
+  background-color: green;
+  cursor: pointer;
+  font-size: 2rem;
+  width: 9em;
+  height: 9em;
+  transition: 0.8s;
+  box-shadow: 0 0 20px yellow;
+}
+
